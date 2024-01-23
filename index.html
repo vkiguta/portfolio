@@ -56,11 +56,10 @@
                     <div class="header__nav__option">
                         <nav class="header__nav__menu mobile-menu">
                             <ul>
-                                <li class="active"><a href="./index.html">Home</a></li>
-                                <li><a href="./about.html">Bio</a></li>
+                                
+                                <li><a href="./bio.html">Bio</a></li>
                                 <li><a href="./portfolio.html">Portfolio</a></li>
-                                <li><a href="./services.html">Services</a></li>
-                                <li><a href="./contact.html">Contact</a></li>
+                                
                             </ul>
                         </nav>
                         <div class="header__nav__social">
@@ -161,7 +160,7 @@
                                 <li>April 20, 2023</li>
                                 <li>05 Comment</li>
                             </ul>
-                            <p>The world of static site generators beckons and Gatsby JS stands tall...</p>
+                            <p>The world of static site generators beckons,and Gatsby JS stands tall. Not only is it blazing fast and SEO-friendly,but it also lets you craft blogs that capture your unique voice.</p>
                             <a href="https://pixel-district.netlify.app/Building%20Your%20Dream%20Blog%20with%20Gatsby%20JS">Read more <span class="arrow_right"></span></a>
                         </div>
                     </div>
@@ -172,7 +171,7 @@
                                 <li>May 05, 2023</li>
                                 <li>05 Comment</li>
                             </ul>
-                            <p>The whirring symphony of servers, the silent dance of data packets, the intricate web of code that powers our digital world – all meticulously crafted by the human hand, or so we thought.</p>
+                            <p>The intricate web of code that powers our digital world – all meticulously crafted by the human hand, or so we thought.</p>
                             <a href="#">Read more <span class="arrow_right"></span></a>
                         </div>
                     </div>
@@ -234,7 +233,6 @@
                             <ul>
                                 <li><a href="about.html">Bio</a></li>
                                 <li><a href="portfolio.html">Portfolio</a></li>
-                                <li><a href="services.html">Services</a></li>
 
                             </ul>
                         </div>
@@ -250,11 +248,17 @@
                     </div>
                     <div class="col-lg-4 col-md-12">
                         <div class="footer__option__item">
-                            <h5>Newsletter</h5>
-                            <form action="contact.html">
-                                <p>Shoot me an email.</p>
-                                <button type="submit"><i class="fa fa-send"></i></button>
-                            </form>
+                            <h5>reach Out</h5>
+                            <div class="contact__form">
+                                <form action="POST" data-netlify="true">
+                                    <input placeholder="Name" type="text" required />
+                                    <input placeholder="Email" type="email" required />
+                                    <textarea placeholder="Comment"></textarea>
+                                    <div class="spam-fliter" data-netlify-recaptcha="true"></div>
+                                    <input class="site-btn" type="submit" />
+                                  </form>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

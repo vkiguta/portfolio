@@ -215,5 +215,7 @@
     });
     developmentIsVisible = true;
   }
+
+  
   // -- End window scroll --
 })(jQuery);
