@@ -566,9 +566,9 @@ ol {
   bottom: -300px;
   width: 100%;
   padding: 25px 30px 20px;
-  -webkit-transition: all, 0.5s;
-  -o-transition: all, 0.5s;
-  transition: all, 0.5s;
+  -webkit-transition: all, 1s;
+  -o-transition: all, 1s;
+  transition: all, 1s;
 }
 .work__item__hover h4 {
   font-size: 22px;
@@ -2242,3 +2242,8 @@ ol {
     padding: 30px 40px 35px 35px;
   }
 }
+
+
+
+
+
